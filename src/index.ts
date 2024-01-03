@@ -2,7 +2,6 @@ import { Location, transform } from "lightningcss";
 import bcd, {
   BrowserName,
   CompatStatement,
-  SupportStatement,
   VersionValue,
 } from "@mdn/browser-compat-data" assert { type: "json" };
 import browserslist from "browserslist";
