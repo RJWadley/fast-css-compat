@@ -17,7 +17,7 @@ const main = async () => {
     );
     const arrBuffer = await file.arrayBuffer();
     const byteArray = new Uint8Array(arrBuffer);
-    detector.detect(byteArray);
+    detector.process(byteArray);
   }
 
   const end = performance.now();
