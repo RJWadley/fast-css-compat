@@ -1,0 +1,18 @@
+/*
+
+This file contains tests for properties.list-style-type.octal
+<code>octal</code>
+
+properties.list-style-type.octal
+
+See: no link provided
+
+TODO: create a test for this feature and move it to test/cases/unimplemented/
+TODO: write an implementation for this feature and move it to test/cases/features/
+
+*/
+
+/*
+expect:
+properties.list-style-type.octal: 0
+*/

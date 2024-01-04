@@ -1,0 +1,18 @@
+/*
+
+This file contains tests for properties.transition-timing-function.jump
+<code>jump-</code> keywords for <code>steps()</code>
+
+properties.transition-timing-function.jump
+
+See: no link provided
+
+TODO: create a test for this feature and move it to test/cases/unimplemented/
+TODO: write an implementation for this feature and move it to test/cases/features/
+
+*/
+
+/*
+expect:
+properties.transition-timing-function.jump: 0
+*/

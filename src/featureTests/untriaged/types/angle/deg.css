@@ -1,0 +1,18 @@
+/*
+
+This file contains tests for types.angle.deg
+No description provided
+
+types.angle.deg
+
+See: https://developer.mozilla.org/docs/Web/CSS/angle#deg
+
+TODO: create a test for this feature and move it to test/cases/unimplemented/
+TODO: write an implementation for this feature and move it to test/cases/features/
+
+*/
+
+/*
+expect:
+types.angle.deg: 0
+*/

@@ -1,0 +1,18 @@
+/*
+
+This file contains tests for selectors.universal.namespaces
+Namespaces (<code>*|*</code>)
+
+selectors.universal.namespaces
+
+See: no link provided
+
+TODO: create a test for this feature and move it to test/cases/unimplemented/
+TODO: write an implementation for this feature and move it to test/cases/features/
+
+*/
+
+/*
+expect:
+selectors.universal.namespaces: 0
+*/

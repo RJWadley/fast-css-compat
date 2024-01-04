@@ -1,0 +1,18 @@
+/*
+
+This file contains tests for properties.caption-side
+No description provided
+
+properties.caption-side
+
+See: https://developer.mozilla.org/docs/Web/CSS/caption-side
+
+TODO: create a test for this feature and move it to test/cases/unimplemented/
+TODO: write an implementation for this feature and move it to test/cases/features/
+
+*/
+
+/*
+expect:
+properties.caption-side: 0
+*/

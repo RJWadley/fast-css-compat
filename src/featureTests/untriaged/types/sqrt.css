@@ -1,0 +1,18 @@
+/*
+
+This file contains tests for types.sqrt
+<code>sqrt()</code>
+
+types.sqrt
+
+See: https://developer.mozilla.org/docs/Web/CSS/sqrt
+
+TODO: create a test for this feature and move it to test/cases/unimplemented/
+TODO: write an implementation for this feature and move it to test/cases/features/
+
+*/
+
+/*
+expect:
+types.sqrt: 0
+*/

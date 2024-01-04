@@ -1,0 +1,18 @@
+/*
+
+This file contains tests for types.calc-constant.NaN
+<code>NaN</code> constant
+
+types.calc-constant.NaN
+
+See: no link provided
+
+TODO: create a test for this feature and move it to test/cases/unimplemented/
+TODO: write an implementation for this feature and move it to test/cases/features/
+
+*/
+
+/*
+expect:
+types.calc-constant.NaN: 0
+*/

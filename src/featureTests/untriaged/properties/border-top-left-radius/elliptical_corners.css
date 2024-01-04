@@ -1,0 +1,18 @@
+/*
+
+This file contains tests for properties.border-top-left-radius.elliptical_corners
+Elliptical corners
+
+properties.border-top-left-radius.elliptical_corners
+
+See: no link provided
+
+TODO: create a test for this feature and move it to test/cases/unimplemented/
+TODO: write an implementation for this feature and move it to test/cases/features/
+
+*/
+
+/*
+expect:
+properties.border-top-left-radius.elliptical_corners: 0
+*/

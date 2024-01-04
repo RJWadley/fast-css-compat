@@ -1,0 +1,18 @@
+/*
+
+This file contains tests for properties.shape-outside.image
+<code>&lt;image&gt;</code>
+
+properties.shape-outside.image
+
+See: https://developer.mozilla.org/docs/Web/CSS/image
+
+TODO: create a test for this feature and move it to test/cases/unimplemented/
+TODO: write an implementation for this feature and move it to test/cases/features/
+
+*/
+
+/*
+expect:
+properties.shape-outside.image: 0
+*/

@@ -1,0 +1,18 @@
+/*
+
+This file contains tests for properties.flex-flow
+No description provided
+
+properties.flex-flow
+
+See: https://developer.mozilla.org/docs/Web/CSS/flex-flow
+
+TODO: create a test for this feature and move it to test/cases/unimplemented/
+TODO: write an implementation for this feature and move it to test/cases/features/
+
+*/
+
+/*
+expect:
+properties.flex-flow: 0
+*/

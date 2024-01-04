@@ -1,0 +1,18 @@
+/*
+
+This file contains tests for selectors.file-selector-button
+<code>::file-selector-button</code>
+
+selectors.file-selector-button
+
+See: https://developer.mozilla.org/docs/Web/CSS/::file-selector-button
+
+TODO: create a test for this feature and move it to test/cases/unimplemented/
+TODO: write an implementation for this feature and move it to test/cases/features/
+
+*/
+
+/*
+expect:
+selectors.file-selector-button: 0
+*/

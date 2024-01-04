@@ -1,0 +1,18 @@
+/*
+
+This file contains tests for types.number
+&lt;number&gt;
+
+types.number
+
+See: https://developer.mozilla.org/docs/Web/CSS/number
+
+TODO: create a test for this feature and move it to test/cases/unimplemented/
+TODO: write an implementation for this feature and move it to test/cases/features/
+
+*/
+
+/*
+expect:
+types.number: 0
+*/

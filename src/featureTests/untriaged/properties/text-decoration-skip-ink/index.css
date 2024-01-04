@@ -1,0 +1,18 @@
+/*
+
+This file contains tests for properties.text-decoration-skip-ink
+No description provided
+
+properties.text-decoration-skip-ink
+
+See: https://developer.mozilla.org/docs/Web/CSS/text-decoration-skip-ink
+
+TODO: create a test for this feature and move it to test/cases/unimplemented/
+TODO: write an implementation for this feature and move it to test/cases/features/
+
+*/
+
+/*
+expect:
+properties.text-decoration-skip-ink: 0
+*/

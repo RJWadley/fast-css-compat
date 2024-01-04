@@ -1,0 +1,18 @@
+/*
+
+This file contains tests for properties.list-style-type.ethiopic-abegede
+<code>ethiopic-abegede</code>
+
+properties.list-style-type.ethiopic-abegede
+
+See: no link provided
+
+TODO: create a test for this feature and move it to test/cases/unimplemented/
+TODO: write an implementation for this feature and move it to test/cases/features/
+
+*/
+
+/*
+expect:
+properties.list-style-type.ethiopic-abegede: 0
+*/

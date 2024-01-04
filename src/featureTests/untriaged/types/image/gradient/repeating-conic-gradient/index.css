@@ -1,0 +1,18 @@
+/*
+
+This file contains tests for types.image.gradient.repeating-conic-gradient
+<code>repeating-conic-gradient()</code>
+
+types.image.gradient.repeating-conic-gradient
+
+See: https://developer.mozilla.org/docs/Web/CSS/gradient/repeating-conic-gradient
+
+TODO: create a test for this feature and move it to test/cases/unimplemented/
+TODO: write an implementation for this feature and move it to test/cases/features/
+
+*/
+
+/*
+expect:
+types.image.gradient.repeating-conic-gradient: 0
+*/

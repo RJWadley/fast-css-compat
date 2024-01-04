@@ -1,0 +1,18 @@
+/*
+
+This file contains tests for properties.text-align
+No description provided
+
+properties.text-align
+
+See: https://developer.mozilla.org/docs/Web/CSS/text-align
+
+TODO: create a test for this feature and move it to test/cases/unimplemented/
+TODO: write an implementation for this feature and move it to test/cases/features/
+
+*/
+
+/*
+expect:
+properties.text-align: 0
+*/

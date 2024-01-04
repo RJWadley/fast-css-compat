@@ -1,0 +1,18 @@
+/*
+
+This file contains tests for properties.contain-intrinsic-width
+No description provided
+
+properties.contain-intrinsic-width
+
+See: https://developer.mozilla.org/docs/Web/CSS/contain-intrinsic-width
+
+TODO: create a test for this feature and move it to test/cases/unimplemented/
+TODO: write an implementation for this feature and move it to test/cases/features/
+
+*/
+
+/*
+expect:
+properties.contain-intrinsic-width: 0
+*/

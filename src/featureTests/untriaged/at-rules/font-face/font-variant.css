@@ -1,0 +1,18 @@
+/*
+
+This file contains tests for at-rules.font-face.font-variant
+No description provided
+
+at-rules.font-face.font-variant
+
+See: https://developer.mozilla.org/docs/Web/CSS/@font-face/font-variant
+
+TODO: create a test for this feature and move it to test/cases/unimplemented/
+TODO: write an implementation for this feature and move it to test/cases/features/
+
+*/
+
+/*
+expect:
+at-rules.font-face.font-variant: 0
+*/

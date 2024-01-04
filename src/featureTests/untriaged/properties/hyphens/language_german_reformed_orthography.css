@@ -1,0 +1,18 @@
+/*
+
+This file contains tests for properties.hyphens.language_german_reformed_orthography
+Hyphenation dictionary for German, Reformed Orthography of 1996 (de, de-1996, de-DE, de-AT, de-*)
+
+properties.hyphens.language_german_reformed_orthography
+
+See: no link provided
+
+TODO: create a test for this feature and move it to test/cases/unimplemented/
+TODO: write an implementation for this feature and move it to test/cases/features/
+
+*/
+
+/*
+expect:
+properties.hyphens.language_german_reformed_orthography: 0
+*/

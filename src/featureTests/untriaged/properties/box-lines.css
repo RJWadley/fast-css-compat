@@ -1,0 +1,18 @@
+/*
+
+This file contains tests for properties.box-lines
+No description provided
+
+properties.box-lines
+
+See: https://developer.mozilla.org/docs/Web/CSS/box-lines
+
+TODO: create a test for this feature and move it to test/cases/unimplemented/
+TODO: write an implementation for this feature and move it to test/cases/features/
+
+*/
+
+/*
+expect:
+properties.box-lines: 0
+*/

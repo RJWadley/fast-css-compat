@@ -1,0 +1,18 @@
+/*
+
+This file contains tests for properties.display.list-item
+No description provided
+
+properties.display.list-item
+
+See: https://developer.mozilla.org/docs/Web/CSS/display-listitem
+
+TODO: create a test for this feature and move it to test/cases/unimplemented/
+TODO: write an implementation for this feature and move it to test/cases/features/
+
+*/
+
+/*
+expect:
+properties.display.list-item: 0
+*/

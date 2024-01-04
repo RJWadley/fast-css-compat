@@ -1,0 +1,18 @@
+/*
+
+This file contains tests for properties.text-combine-upright.digits
+<code>digits</code>
+
+properties.text-combine-upright.digits
+
+See: no link provided
+
+TODO: create a test for this feature and move it to test/cases/unimplemented/
+TODO: write an implementation for this feature and move it to test/cases/features/
+
+*/
+
+/*
+expect:
+properties.text-combine-upright.digits: 0
+*/

@@ -1,0 +1,18 @@
+/*
+
+This file contains tests for properties.animation-delay
+No description provided
+
+properties.animation-delay
+
+See: https://developer.mozilla.org/docs/Web/CSS/animation-delay
+
+TODO: create a test for this feature and move it to test/cases/unimplemented/
+TODO: write an implementation for this feature and move it to test/cases/features/
+
+*/
+
+/*
+expect:
+properties.animation-delay: 0
+*/

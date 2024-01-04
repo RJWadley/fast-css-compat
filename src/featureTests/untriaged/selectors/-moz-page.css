@@ -1,0 +1,18 @@
+/*
+
+This file contains tests for selectors.-moz-page
+<code>::-moz-page</code>
+
+selectors.-moz-page
+
+See: https://developer.mozilla.org/docs/Web/CSS/::-moz-page
+
+TODO: create a test for this feature and move it to test/cases/unimplemented/
+TODO: write an implementation for this feature and move it to test/cases/features/
+
+*/
+
+/*
+expect:
+selectors.-moz-page: 0
+*/

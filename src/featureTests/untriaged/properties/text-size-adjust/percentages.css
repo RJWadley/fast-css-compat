@@ -1,0 +1,18 @@
+/*
+
+This file contains tests for properties.text-size-adjust.percentages
+<code>&lt;percentage&gt;</code>
+
+properties.text-size-adjust.percentages
+
+See: no link provided
+
+TODO: create a test for this feature and move it to test/cases/unimplemented/
+TODO: write an implementation for this feature and move it to test/cases/features/
+
+*/
+
+/*
+expect:
+properties.text-size-adjust.percentages: 0
+*/

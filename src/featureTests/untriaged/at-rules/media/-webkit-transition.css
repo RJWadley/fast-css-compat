@@ -1,0 +1,18 @@
+/*
+
+This file contains tests for at-rules.media.-webkit-transition
+<code>-webkit-transition</code> media feature
+
+at-rules.media.-webkit-transition
+
+See: https://developer.mozilla.org/docs/Web/CSS/@media/-webkit-transition
+
+TODO: create a test for this feature and move it to test/cases/unimplemented/
+TODO: write an implementation for this feature and move it to test/cases/features/
+
+*/
+
+/*
+expect:
+at-rules.media.-webkit-transition: 0
+*/

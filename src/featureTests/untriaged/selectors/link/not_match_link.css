@@ -1,0 +1,18 @@
+/*
+
+This file contains tests for selectors.link.not_match_link
+<code>:link</code> privacy: selector does not match <code>&lt;link&gt;</code> elements
+
+selectors.link.not_match_link
+
+See: no link provided
+
+TODO: create a test for this feature and move it to test/cases/unimplemented/
+TODO: write an implementation for this feature and move it to test/cases/features/
+
+*/
+
+/*
+expect:
+selectors.link.not_match_link: 0
+*/

@@ -1,0 +1,18 @@
+/*
+
+This file contains tests for selectors.out-of-range
+<code>:out-of-range</code>
+
+selectors.out-of-range
+
+See: https://developer.mozilla.org/docs/Web/CSS/:out-of-range
+
+TODO: create a test for this feature and move it to test/cases/unimplemented/
+TODO: write an implementation for this feature and move it to test/cases/features/
+
+*/
+
+/*
+expect:
+selectors.out-of-range: 0
+*/

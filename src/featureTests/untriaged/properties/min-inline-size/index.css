@@ -1,0 +1,18 @@
+/*
+
+This file contains tests for properties.min-inline-size
+No description provided
+
+properties.min-inline-size
+
+See: https://developer.mozilla.org/docs/Web/CSS/min-inline-size
+
+TODO: create a test for this feature and move it to test/cases/unimplemented/
+TODO: write an implementation for this feature and move it to test/cases/features/
+
+*/
+
+/*
+expect:
+properties.min-inline-size: 0
+*/

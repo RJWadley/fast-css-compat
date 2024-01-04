@@ -1,0 +1,18 @@
+/*
+
+This file contains tests for types.image.paint
+<code>paint()</code>
+
+types.image.paint
+
+See: https://developer.mozilla.org/docs/Web/CSS/image/paint
+
+TODO: create a test for this feature and move it to test/cases/unimplemented/
+TODO: write an implementation for this feature and move it to test/cases/features/
+
+*/
+
+/*
+expect:
+types.image.paint: 0
+*/

@@ -1,0 +1,18 @@
+/*
+
+This file contains tests for properties.scroll-padding-block-end
+No description provided
+
+properties.scroll-padding-block-end
+
+See: https://developer.mozilla.org/docs/Web/CSS/scroll-padding-block-end
+
+TODO: create a test for this feature and move it to test/cases/unimplemented/
+TODO: write an implementation for this feature and move it to test/cases/features/
+
+*/
+
+/*
+expect:
+properties.scroll-padding-block-end: 0
+*/

@@ -1,0 +1,18 @@
+/*
+
+This file contains tests for selectors.-moz-only-whitespace
+<code>:-moz-only-whitespace</code>
+
+selectors.-moz-only-whitespace
+
+See: https://developer.mozilla.org/docs/Web/CSS/:-moz-only-whitespace
+
+TODO: create a test for this feature and move it to test/cases/unimplemented/
+TODO: write an implementation for this feature and move it to test/cases/features/
+
+*/
+
+/*
+expect:
+selectors.-moz-only-whitespace: 0
+*/

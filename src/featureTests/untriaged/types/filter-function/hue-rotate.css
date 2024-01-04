@@ -1,0 +1,18 @@
+/*
+
+This file contains tests for types.filter-function.hue-rotate
+<code>hue-rotate()</code>
+
+types.filter-function.hue-rotate
+
+See: https://developer.mozilla.org/docs/Web/CSS/filter-function/hue-rotate
+
+TODO: create a test for this feature and move it to test/cases/unimplemented/
+TODO: write an implementation for this feature and move it to test/cases/features/
+
+*/
+
+/*
+expect:
+types.filter-function.hue-rotate: 0
+*/

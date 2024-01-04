@@ -1,0 +1,18 @@
+/*
+
+This file contains tests for selectors.first-letter
+<code>::first-letter</code>
+
+selectors.first-letter
+
+See: https://developer.mozilla.org/docs/Web/CSS/::first-letter
+
+TODO: create a test for this feature and move it to test/cases/unimplemented/
+TODO: write an implementation for this feature and move it to test/cases/features/
+
+*/
+
+/*
+expect:
+selectors.first-letter: 0
+*/

@@ -1,0 +1,18 @@
+/*
+
+This file contains tests for properties.caption-side.non_standard_values
+Non-standard values <code>left</code>, <code>right</code>, <code>top-outside</code>, and <code>bottom-outside</code>
+
+properties.caption-side.non_standard_values
+
+See: no link provided
+
+TODO: create a test for this feature and move it to test/cases/unimplemented/
+TODO: write an implementation for this feature and move it to test/cases/features/
+
+*/
+
+/*
+expect:
+properties.caption-side.non_standard_values: 0
+*/

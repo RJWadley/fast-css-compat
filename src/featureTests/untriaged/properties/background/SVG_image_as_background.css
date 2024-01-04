@@ -1,0 +1,18 @@
+/*
+
+This file contains tests for properties.background.SVG_image_as_background
+SVG image as background
+
+properties.background.SVG_image_as_background
+
+See: no link provided
+
+TODO: create a test for this feature and move it to test/cases/unimplemented/
+TODO: write an implementation for this feature and move it to test/cases/features/
+
+*/
+
+/*
+expect:
+properties.background.SVG_image_as_background: 0
+*/

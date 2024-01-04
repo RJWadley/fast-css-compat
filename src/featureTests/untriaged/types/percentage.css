@@ -1,0 +1,18 @@
+/*
+
+This file contains tests for types.percentage
+<code>&lt;percentage&gt;</code>
+
+types.percentage
+
+See: https://developer.mozilla.org/docs/Web/CSS/percentage
+
+TODO: create a test for this feature and move it to test/cases/unimplemented/
+TODO: write an implementation for this feature and move it to test/cases/features/
+
+*/
+
+/*
+expect:
+types.percentage: 0
+*/

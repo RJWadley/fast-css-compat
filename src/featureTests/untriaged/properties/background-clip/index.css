@@ -1,0 +1,18 @@
+/*
+
+This file contains tests for properties.background-clip
+No description provided
+
+properties.background-clip
+
+See: https://developer.mozilla.org/docs/Web/CSS/background-clip
+
+TODO: create a test for this feature and move it to test/cases/unimplemented/
+TODO: write an implementation for this feature and move it to test/cases/features/
+
+*/
+
+/*
+expect:
+properties.background-clip: 0
+*/

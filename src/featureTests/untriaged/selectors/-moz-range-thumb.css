@@ -1,0 +1,18 @@
+/*
+
+This file contains tests for selectors.-moz-range-thumb
+<code>::-moz-range-thumb</code>
+
+selectors.-moz-range-thumb
+
+See: https://developer.mozilla.org/docs/Web/CSS/::-moz-range-thumb
+
+TODO: create a test for this feature and move it to test/cases/unimplemented/
+TODO: write an implementation for this feature and move it to test/cases/features/
+
+*/
+
+/*
+expect:
+selectors.-moz-range-thumb: 0
+*/

@@ -1,0 +1,18 @@
+/*
+
+This file contains tests for properties.contain-intrinsic-size
+No description provided
+
+properties.contain-intrinsic-size
+
+See: https://developer.mozilla.org/docs/Web/CSS/contain-intrinsic-size
+
+TODO: create a test for this feature and move it to test/cases/unimplemented/
+TODO: write an implementation for this feature and move it to test/cases/features/
+
+*/
+
+/*
+expect:
+properties.contain-intrinsic-size: 0
+*/

@@ -1,0 +1,18 @@
+/*
+
+This file contains tests for properties.background-color
+No description provided
+
+properties.background-color
+
+See: https://developer.mozilla.org/docs/Web/CSS/background-color
+
+TODO: create a test for this feature and move it to test/cases/unimplemented/
+TODO: write an implementation for this feature and move it to test/cases/features/
+
+*/
+
+/*
+expect:
+properties.background-color: 0
+*/

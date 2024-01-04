@@ -1,0 +1,18 @@
+/*
+
+This file contains tests for properties.clip-path.basic_shape
+<code>&lt;basic-shape&gt;</code>
+
+properties.clip-path.basic_shape
+
+See: no link provided
+
+TODO: create a test for this feature and move it to test/cases/unimplemented/
+TODO: write an implementation for this feature and move it to test/cases/features/
+
+*/
+
+/*
+expect:
+properties.clip-path.basic_shape: 0
+*/

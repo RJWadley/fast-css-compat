@@ -1,0 +1,18 @@
+/*
+
+This file contains tests for types.transform-function.translateZ
+<code>translateZ()</code>
+
+types.transform-function.translateZ
+
+See: https://developer.mozilla.org/docs/Web/CSS/transform-function/translateZ
+
+TODO: create a test for this feature and move it to test/cases/unimplemented/
+TODO: write an implementation for this feature and move it to test/cases/features/
+
+*/
+
+/*
+expect:
+types.transform-function.translateZ: 0
+*/

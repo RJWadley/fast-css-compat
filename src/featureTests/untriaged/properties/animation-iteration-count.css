@@ -1,0 +1,18 @@
+/*
+
+This file contains tests for properties.animation-iteration-count
+No description provided
+
+properties.animation-iteration-count
+
+See: https://developer.mozilla.org/docs/Web/CSS/animation-iteration-count
+
+TODO: create a test for this feature and move it to test/cases/unimplemented/
+TODO: write an implementation for this feature and move it to test/cases/features/
+
+*/
+
+/*
+expect:
+properties.animation-iteration-count: 0
+*/

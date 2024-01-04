@@ -1,0 +1,18 @@
+/*
+
+This file contains tests for at-rules.media.any-hover
+<code>any-hover</code> media feature
+
+at-rules.media.any-hover
+
+See: https://developer.mozilla.org/docs/Web/CSS/@media/any-hover
+
+TODO: create a test for this feature and move it to test/cases/unimplemented/
+TODO: write an implementation for this feature and move it to test/cases/features/
+
+*/
+
+/*
+expect:
+at-rules.media.any-hover: 0
+*/

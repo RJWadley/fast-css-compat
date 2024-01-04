@@ -1,0 +1,18 @@
+/*
+
+This file contains tests for properties.-webkit-line-clamp
+No description provided
+
+properties.-webkit-line-clamp
+
+See: https://developer.mozilla.org/docs/Web/CSS/-webkit-line-clamp
+
+TODO: create a test for this feature and move it to test/cases/unimplemented/
+TODO: write an implementation for this feature and move it to test/cases/features/
+
+*/
+
+/*
+expect:
+properties.-webkit-line-clamp: 0
+*/

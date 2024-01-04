@@ -1,0 +1,18 @@
+/*
+
+This file contains tests for types.image.gradient.linear-gradient.premultiplied_gradients
+Gradients applied to pre-multiplied color space (prevents grays from appearing in gradients with transparency)
+
+types.image.gradient.linear-gradient.premultiplied_gradients
+
+See: no link provided
+
+TODO: create a test for this feature and move it to test/cases/unimplemented/
+TODO: write an implementation for this feature and move it to test/cases/features/
+
+*/
+
+/*
+expect:
+types.image.gradient.linear-gradient.premultiplied_gradients: 0
+*/

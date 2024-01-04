@@ -1,0 +1,18 @@
+/*
+
+This file contains tests for selectors.disabled
+<code>:disabled</code>
+
+selectors.disabled
+
+See: https://developer.mozilla.org/docs/Web/CSS/:disabled
+
+TODO: create a test for this feature and move it to test/cases/unimplemented/
+TODO: write an implementation for this feature and move it to test/cases/features/
+
+*/
+
+/*
+expect:
+selectors.disabled: 0
+*/

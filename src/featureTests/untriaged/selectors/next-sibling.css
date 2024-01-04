@@ -1,0 +1,18 @@
+/*
+
+This file contains tests for selectors.next-sibling
+Next-sibling combinator (<code>A + B</code>)
+
+selectors.next-sibling
+
+See: https://developer.mozilla.org/docs/Web/CSS/Next-sibling_combinator
+
+TODO: create a test for this feature and move it to test/cases/unimplemented/
+TODO: write an implementation for this feature and move it to test/cases/features/
+
+*/
+
+/*
+expect:
+selectors.next-sibling: 0
+*/

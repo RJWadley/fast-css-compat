@@ -1,0 +1,18 @@
+/*
+
+This file contains tests for selectors.future
+<code>:future</code>
+
+selectors.future
+
+See: https://developer.mozilla.org/docs/Web/CSS/:future
+
+TODO: create a test for this feature and move it to test/cases/unimplemented/
+TODO: write an implementation for this feature and move it to test/cases/features/
+
+*/
+
+/*
+expect:
+selectors.future: 0
+*/

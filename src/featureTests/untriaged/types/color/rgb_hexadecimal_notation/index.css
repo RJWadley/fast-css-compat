@@ -1,0 +1,18 @@
+/*
+
+This file contains tests for types.color.rgb_hexadecimal_notation
+RGB hexadecimal notation (<code>#RRGGBB</code>, <code>#RGB</code>, …)
+
+types.color.rgb_hexadecimal_notation
+
+See: https://developer.mozilla.org/docs/Web/CSS/hex-color
+
+TODO: create a test for this feature and move it to test/cases/unimplemented/
+TODO: write an implementation for this feature and move it to test/cases/features/
+
+*/
+
+/*
+expect:
+types.color.rgb_hexadecimal_notation: 0
+*/

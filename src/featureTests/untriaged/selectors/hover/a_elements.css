@@ -1,0 +1,18 @@
+/*
+
+This file contains tests for selectors.hover.a_elements
+<code>&lt;a&gt;</code> element support
+
+selectors.hover.a_elements
+
+See: no link provided
+
+TODO: create a test for this feature and move it to test/cases/unimplemented/
+TODO: write an implementation for this feature and move it to test/cases/features/
+
+*/
+
+/*
+expect:
+selectors.hover.a_elements: 0
+*/

@@ -1,0 +1,18 @@
+/*
+
+This file contains tests for properties.appearance.compat-auto
+<code>&lt;compat-auto&gt;</code> (compatibility values <code>searchfield</code>, <code>textarea</code>, <code>checkbox</code>, <code>radio</code>, <code>menulist</code>, <code>listbox</code>, <code>meter</code>, <code>progress-bar</code>, <code>button</code>)
+
+properties.appearance.compat-auto
+
+See: no link provided
+
+TODO: create a test for this feature and move it to test/cases/unimplemented/
+TODO: write an implementation for this feature and move it to test/cases/features/
+
+*/
+
+/*
+expect:
+properties.appearance.compat-auto: 0
+*/

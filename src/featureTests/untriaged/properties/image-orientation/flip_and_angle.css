@@ -1,0 +1,18 @@
+/*
+
+This file contains tests for properties.image-orientation.flip_and_angle
+<code>flip</code> &amp; <code>&lt;angle&gt;</code>
+
+properties.image-orientation.flip_and_angle
+
+See: no link provided
+
+TODO: create a test for this feature and move it to test/cases/unimplemented/
+TODO: write an implementation for this feature and move it to test/cases/features/
+
+*/
+
+/*
+expect:
+properties.image-orientation.flip_and_angle: 0
+*/

@@ -1,0 +1,18 @@
+/*
+
+This file contains tests for properties.writing-mode.svg_values
+<code>lr</code>, <code>lr-tb</code>, <code>rl</code>, <code>rl-tb</code>, <code>tb</code>, and <code>tb-rl</code>
+
+properties.writing-mode.svg_values
+
+See: no link provided
+
+TODO: create a test for this feature and move it to test/cases/unimplemented/
+TODO: write an implementation for this feature and move it to test/cases/features/
+
+*/
+
+/*
+expect:
+properties.writing-mode.svg_values: 0
+*/

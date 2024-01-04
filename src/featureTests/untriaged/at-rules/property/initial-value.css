@@ -1,0 +1,18 @@
+/*
+
+This file contains tests for at-rules.property.initial-value
+<code>initial-value</code> descriptor
+
+at-rules.property.initial-value
+
+See: https://developer.mozilla.org/docs/Web/CSS/@property/initial-value
+
+TODO: create a test for this feature and move it to test/cases/unimplemented/
+TODO: write an implementation for this feature and move it to test/cases/features/
+
+*/
+
+/*
+expect:
+at-rules.property.initial-value: 0
+*/

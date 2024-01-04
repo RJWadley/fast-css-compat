@@ -1,0 +1,18 @@
+/*
+
+This file contains tests for selectors.-moz-submit-invalid
+<code>:-moz-submit-invalid</code>
+
+selectors.-moz-submit-invalid
+
+See: https://developer.mozilla.org/docs/Web/CSS/:-moz-submit-invalid
+
+TODO: create a test for this feature and move it to test/cases/unimplemented/
+TODO: write an implementation for this feature and move it to test/cases/features/
+
+*/
+
+/*
+expect:
+selectors.-moz-submit-invalid: 0
+*/

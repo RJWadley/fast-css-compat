@@ -1,0 +1,18 @@
+/*
+
+This file contains tests for properties.page-break-inside
+No description provided
+
+properties.page-break-inside
+
+See: https://developer.mozilla.org/docs/Web/CSS/page-break-inside
+
+TODO: create a test for this feature and move it to test/cases/unimplemented/
+TODO: write an implementation for this feature and move it to test/cases/features/
+
+*/
+
+/*
+expect:
+properties.page-break-inside: 0
+*/

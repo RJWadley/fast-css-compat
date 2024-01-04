@@ -1,0 +1,18 @@
+/*
+
+This file contains tests for properties.resize.flow_relative_support
+Support for flow-relative values <code>block</code> and <code>inline</code>
+
+properties.resize.flow_relative_support
+
+See: no link provided
+
+TODO: create a test for this feature and move it to test/cases/unimplemented/
+TODO: write an implementation for this feature and move it to test/cases/features/
+
+*/
+
+/*
+expect:
+properties.resize.flow_relative_support: 0
+*/

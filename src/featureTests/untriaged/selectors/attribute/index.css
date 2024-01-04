@@ -1,0 +1,18 @@
+/*
+
+This file contains tests for selectors.attribute
+Attribute selector (<code>[attr=value]</code>)
+
+selectors.attribute
+
+See: https://developer.mozilla.org/docs/Web/CSS/Attribute_selectors
+
+TODO: create a test for this feature and move it to test/cases/unimplemented/
+TODO: write an implementation for this feature and move it to test/cases/features/
+
+*/
+
+/*
+expect:
+selectors.attribute: 0
+*/

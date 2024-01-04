@@ -1,0 +1,18 @@
+/*
+
+This file contains tests for properties.scrollbar-color
+No description provided
+
+properties.scrollbar-color
+
+See: https://developer.mozilla.org/docs/Web/CSS/scrollbar-color
+
+TODO: create a test for this feature and move it to test/cases/unimplemented/
+TODO: write an implementation for this feature and move it to test/cases/features/
+
+*/
+
+/*
+expect:
+properties.scrollbar-color: 0
+*/
