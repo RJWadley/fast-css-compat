@@ -1,5 +1,7 @@
 import fs from "fs/promises";
-import { checkCSS } from "../src/checkCSS.js";
+import { Detector } from "../src/Detector.js";
+
+const detector = new Detector("defaults");
 
 const main = async () => {
   const start = performance.now();
@@ -15,7 +17,7 @@ const main = async () => {
     );
     const arrBuffer = await file.arrayBuffer();
     const byteArray = new Uint8Array(arrBuffer);
-    checkCSS(byteArray);
+    detector.detect(byteArray);
   }
 
   const end = performance.now();
