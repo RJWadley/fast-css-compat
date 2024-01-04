@@ -1,10 +1,8 @@
-import { CompatStatement } from "@mdn/browser-compat-data";
 import browserslist from "browserslist";
 import { Location } from "lightningcss";
 import { caniuseToMdn } from "./util/caniuseToMdn.js";
 import { versionCompare } from "./util/versionCompare.js";
-import { runDetection } from "./runDetection.js";
-import { formatDescription } from "./util/formatDescription.js";
+import { DescribedCompatStatement, runDetection } from "./runDetection.js";
 
 type Violation =
   | {
@@ -15,10 +13,6 @@ type Violation =
       featureName: string;
       browsers: string[];
     };
-
-type DescribedCompatStatement = CompatStatement & {
-  name: string;
-};
 
 type BrowserslistQuery = string | readonly string[] | null;
 
@@ -79,7 +73,7 @@ export class Detector {
     if (violatingBrowsers.length > 0) {
       return {
         location,
-        featureName: compatStatement.name,
+        featureName: compatStatement.id,
         browsers: violatingBrowsers,
       };
     }
@@ -94,32 +88,17 @@ export class Detector {
       code,
       (
         location: Location,
-        compatStatement: CompatStatement | undefined
+        compatStatement: DescribedCompatStatement | undefined
       ): undefined => {
         if (!compatStatement) {
           violations.push({ location });
           return;
         }
 
-        // ensure this is a compat statement with a description
-        if (!compatStatement.description) {
-          console.error(
-            "Missing description for compat statement",
-            compatStatement
-          );
-          violations.push({ location });
-          return;
-        }
-
-        const feature = {
-          ...compatStatement,
-          name: formatDescription(compatStatement.description),
-        };
-
-        this.onFeatureUsage?.(feature.name, location);
+        this.onFeatureUsage?.(compatStatement.id, location);
 
         // check for any cached violations
-        const cachedViolation = this.violationCache[feature.name];
+        const cachedViolation = this.violationCache[compatStatement.id];
         if (cachedViolation) {
           // submit a new violation with a new location
           violations.push({
@@ -130,10 +109,10 @@ export class Detector {
         }
 
         // check for any uncached violations
-        const violation = this.getViolation(location, feature);
+        const violation = this.getViolation(location, compatStatement);
         if (violation) {
           violations.push(violation);
-          this.violationCache[feature.name] = violation;
+          this.violationCache[compatStatement.id] = violation;
         }
       }
     );

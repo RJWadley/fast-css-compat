@@ -1,2 +1,2 @@
-export const formatDescription = (description: string) =>
-  description.replace(/<code>(.*?)<\/code>/g, "$1");
+export const formatDescription = (description: string | undefined) =>
+  description?.replace(/<code>(.*?)<\/code>/g, "$1");
