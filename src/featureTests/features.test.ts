@@ -11,7 +11,7 @@ const selfPath = dirname(fileURLToPath(import.meta.url));
  * each test case fixture.
  */
 function parseTestCase(cssString: string) {
-  const metaRegex = /\s*\/\*\s*expect:\s*([\d\s:A-Za-z-]*)/;
+  const metaRegex = /\s*\/\*\s*expect:\s*([_.\d\s:A-Za-z-]*)/;
   const metadata = cssString.match(metaRegex);
   if (!metadata) return null;
 

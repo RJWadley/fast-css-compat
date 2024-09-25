@@ -1,0 +1,27 @@
+/*
+
+This file contains tests for at-rules.container
+<code>@container</code>
+
+at-rules.container
+
+See: https://developer.mozilla.org/docs/Web/CSS/@container
+
+*/
+
+/*
+expect:
+at-rules.container: 2
+*/
+
+@container figure not style(--featured: true) {
+  figcaption {
+    /* Custom styling */
+  }
+}
+
+@container (min-width: 400px) {
+  figcaption {
+    /* Custom styling */
+  }
+}

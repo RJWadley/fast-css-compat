@@ -49,12 +49,17 @@ const recurseFeatures = async (
     const { description, mdn_url } = thisCompat;
     const link = mdn_url ?? "no link provided";
     const testStub = createTestStub({ id: pathSoFar, description, link });
-    const path = `./src/featureTests/untriaged/${pathSoFar.replace(
-      /\./g,
-      "/"
-    )}${hasNestedFeatures ? "/index" : ""}.css`;
-    console.log(`writing ${path}`);
-    await Bun.write(path, testStub);
+    const path = `${pathSoFar.replace(/\./g, "/")}${
+      hasNestedFeatures ? "/index" : ""
+    }.css`;
+
+    // if the file ./src/featureTests/cases/path/to/feature.css exists, skip it
+    // otherwise, write the test stub to ./src/featureTests/untriaged/path/to/feature.css
+    const existingFile = await Bun.file(`./src/featureTests/cases/${path}`);
+    if (existingFile.size === 0) {
+      console.log(`writing test stub for ${path}`);
+      await Bun.write(`./src/featureTests/untriaged/${path}`, testStub);
+    }
   }
 
   for (const key in data) {

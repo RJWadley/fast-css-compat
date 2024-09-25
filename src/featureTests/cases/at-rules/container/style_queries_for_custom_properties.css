@@ -1,0 +1,41 @@
+/*
+
+This file contains tests for at-rules.container.style_queries_for_custom_properties
+Style queries for custom properties
+
+at-rules.container.style_queries_for_custom_properties
+
+See: https://developer.mozilla.org/docs/Web/CSS/@container
+
+*/
+
+/*
+expect:
+at-rules.container.style_queries_for_custom_properties: 3
+*/
+
+@container style(display: flex) {
+  .page-header__start {
+    /* custom styling */
+  }
+}
+
+@container figure style(--featured: true) {
+  img {
+    /* Custom styling */
+  }
+}
+
+@container figure not style(--featured: true) {
+  figcaption {
+    /* Custom styling */
+  }
+}
+
+/* other container queries should not be flagged */
+
+@container (min-width: 400px) {
+  .test {
+    /* Custom styling */
+  }
+}

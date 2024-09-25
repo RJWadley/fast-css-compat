@@ -1,6 +1,7 @@
 import bcd, { CompatStatement, Identifier } from "@mdn/browser-compat-data";
 import { Location, transform } from "lightningcss";
 import { formatDescription } from "./util/formatDescription.js";
+import { recurseNode } from "./util/recurseNode.js";
 
 export type DescribedCompatStatement = CompatStatement & {
   id: string;
@@ -40,12 +41,21 @@ export const runDetection = (
     code: typeof code === "string" ? Buffer.from(code) : code,
     visitor: {
       Rule(rule) {
+        if (rule.type === "ignored" || rule.type === "custom") return;
+        check(rule.value.loc, getBCD(`at-rules.${rule.type}`));
+
         if (rule.type === "container") {
-          check(rule.value.loc, getBCD("atRules.container"));
-          check(
-            rule.value.loc,
-            getBCD("at-rules.container.style_queries_for_custom_properties")
-          );
+          if (
+            rule.value.condition.type === "style" ||
+            recurseNode(rule.value.condition).some(
+              (child) => child.type === "style"
+            )
+          ) {
+            check(
+              rule.value.loc,
+              getBCD("at-rules.container.style_queries_for_custom_properties")
+            );
+          }
         }
       },
     },
