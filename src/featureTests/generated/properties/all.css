@@ -1,0 +1,31 @@
+/* AUTO_GENERATED: true */
+
+/* 
+feature: properties.all
+No description provided
+
+see: https://developer.mozilla.org/docs/Web/CSS/all
+*/
+
+/* sample that triggers the feature */
+body {
+background-color: #f0f0f0;
+color: blue;
+font-size: small;
+}
+
+blockquote {
+all: revert;
+}
+
+/* sample that does not trigger the feature */
+body {
+background-color: #f0f0f0;
+color: blue;
+font-size: small;
+}
+
+blockquote {
+background-color: skyblue;
+color: red;
+}

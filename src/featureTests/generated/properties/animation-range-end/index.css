@@ -1,0 +1,23 @@
+/* AUTO_GENERATED: true */
+
+/* 
+feature: properties.animation-range-end
+No description provided
+
+see: https://developer.mozilla.org/docs/Web/CSS/animation-range-end
+*/
+
+/* sample that triggers the feature */
+div {
+animation-name: example;
+animation-duration: 1s;
+animation-iteration-count: infinite;
+animation-range-end: 50%;
+}
+
+/* sample that does not trigger the feature */
+div {
+animation-name: example;
+animation-duration: 1s;
+animation-iteration-count: infinite;
+}

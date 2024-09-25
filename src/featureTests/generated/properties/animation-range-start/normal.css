@@ -1,0 +1,14 @@
+/* AUTO_GENERATED: true */
+
+/* 
+feature: properties.animation-range-start.normal
+No description provided
+
+see: https://developer.mozilla.org/docs/Web/CSS/animation-range-start
+*/
+
+/* sample that triggers the feature */
+div { animation-range-start: normal; }
+
+/* sample that does not trigger the feature */
+div { animation-range-start: 20%; }

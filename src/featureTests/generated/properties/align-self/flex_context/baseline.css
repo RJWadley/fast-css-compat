@@ -1,0 +1,18 @@
+/* AUTO_GENERATED: true */
+
+/* 
+feature: properties.align-self.flex_context.baseline
+No description provided
+
+see: https://developer.mozilla.org/docs/Web/CSS/align-self
+*/
+
+/* sample that triggers the feature */
+div {
+align-self: baseline;
+}
+
+/* sample that does not trigger the feature */
+div {
+align-self: flex-start;
+}

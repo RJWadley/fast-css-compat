@@ -1,0 +1,14 @@
+/* AUTO_GENERATED: true */
+
+/* 
+feature: properties.aspect-ratio.auto
+No description provided
+
+see: https://developer.mozilla.org/docs/Web/CSS/aspect-ratio
+*/
+
+/* sample that triggers the feature */
+img { aspect-ratio: auto 16/9; }
+
+/* sample that does not trigger the feature */
+div { aspect-ratio: 16/9; }

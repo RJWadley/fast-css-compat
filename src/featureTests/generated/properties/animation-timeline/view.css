@@ -1,0 +1,14 @@
+/* AUTO_GENERATED: true */
+
+/* 
+feature: properties.animation-timeline.view
+<code>view()</code>
+
+see: https://developer.mozilla.org/docs/Web/CSS/animation-timeline/view
+*/
+
+/* sample that triggers the feature */
+animation-timeline: view(block 50% 10%);
+
+/* sample that does not trigger the feature */
+animation-timeline: linear;

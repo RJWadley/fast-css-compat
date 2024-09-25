@@ -1,0 +1,14 @@
+/* AUTO_GENERATED: true */
+
+/* 
+feature: properties.animation-play-state.running
+No description provided
+
+see: https://developer.mozilla.org/docs/Web/CSS/animation-play-state
+*/
+
+/* sample that triggers the feature */
+div { animation-play-state: running; }
+
+/* sample that does not trigger the feature */
+div { animation-play-state: paused; }

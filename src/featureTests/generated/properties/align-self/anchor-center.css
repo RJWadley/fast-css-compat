@@ -1,0 +1,14 @@
+/* AUTO_GENERATED: true */
+
+/* 
+feature: properties.align-self.anchor-center
+No description provided
+
+see: https://developer.mozilla.org/docs/Web/CSS/align-self
+*/
+
+/* sample that triggers the feature */
+align-self: anchor-center;
+
+/* sample that does not trigger the feature */
+align-self: flex-start;

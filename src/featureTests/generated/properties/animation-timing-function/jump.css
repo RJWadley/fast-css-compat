@@ -1,0 +1,14 @@
+/* AUTO_GENERATED: true */
+
+/* 
+feature: properties.animation-timing-function.jump
+<code>jump-</code> keywords for <code>steps()</code>
+
+see: https://developer.mozilla.org/docs/Web/CSS/animation-timing-function
+*/
+
+/* sample that triggers the feature */
+animation-timing-function: steps(4, jump-start);
+
+/* sample that does not trigger the feature */
+animation-timing-function: ease-in-out;

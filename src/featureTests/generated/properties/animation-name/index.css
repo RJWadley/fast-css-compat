@@ -1,0 +1,14 @@
+/* AUTO_GENERATED: true */
+
+/* 
+feature: properties.animation-name
+No description provided
+
+see: https://developer.mozilla.org/docs/Web/CSS/animation-name
+*/
+
+/* sample that triggers the feature */
+div { animation-name: myAnimation; } @keyframes myAnimation { from { transform: translateX(0); } to { transform: translateX(100px); } }
+
+/* sample that does not trigger the feature */
+div { background-color: red; }

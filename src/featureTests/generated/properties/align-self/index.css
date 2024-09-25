@@ -1,0 +1,37 @@
+/* AUTO_GENERATED: true */
+
+/* 
+feature: properties.align-self
+No description provided
+
+see: https://developer.mozilla.org/docs/Web/CSS/align-self
+*/
+
+/* sample that triggers the feature */
+div {
+display: flex;
+align-items: center;
+height: 120px;
+background: beige;
+}
+
+div > div {
+height: 60px;
+background: cyan;
+margin: 5px;
+align-self: flex-end;
+}
+
+/* sample that does not trigger the feature */
+div {
+display: flex;
+align-items: center;
+height: 120px;
+background: beige;
+}
+
+div > div {
+height: 60px;
+background: cyan;
+margin: 5px;
+}

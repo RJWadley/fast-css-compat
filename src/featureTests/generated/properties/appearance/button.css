@@ -1,0 +1,14 @@
+/* AUTO_GENERATED: true */
+
+/* 
+feature: properties.appearance.button
+No description provided
+
+see: https://developer.mozilla.org/docs/Web/CSS/appearance
+*/
+
+/* sample that triggers the feature */
+button { -webkit-appearance: button; }
+
+/* sample that does not trigger the feature */
+button { background-color: blue; }

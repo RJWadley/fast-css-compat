@@ -1,0 +1,14 @@
+/* AUTO_GENERATED: true */
+
+/* 
+feature: properties.appearance.none
+No description provided
+
+see: https://developer.mozilla.org/docs/Web/CSS/appearance
+*/
+
+/* sample that triggers the feature */
+input[type=checkbox] { -webkit-appearance: none; width: 20px; height: 20px; }
+
+/* sample that does not trigger the feature */
+input[type=checkbox] { width: 20px; height: 20px; }

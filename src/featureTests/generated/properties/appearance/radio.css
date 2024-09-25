@@ -1,0 +1,14 @@
+/* AUTO_GENERATED: true */
+
+/* 
+feature: properties.appearance.radio
+No description provided
+
+see: https://developer.mozilla.org/docs/Web/CSS/appearance
+*/
+
+/* sample that triggers the feature */
+input[type=radio] { -webkit-appearance: radio; background-color: red; }
+
+/* sample that does not trigger the feature */
+input[type=radio] { background-color: red; }

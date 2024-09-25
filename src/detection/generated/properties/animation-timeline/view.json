@@ -1,0 +1,6 @@
+{
+	"type": "feature",
+	"specificProperty": "animation-timeline",
+	"specificValue": "view()",
+	"id": "properties.animation-timeline.view"
+}

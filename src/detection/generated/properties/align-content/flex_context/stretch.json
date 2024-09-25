@@ -1,0 +1,7 @@
+{
+	"type": "feature-value",
+	"specificProperty": "align-content",
+	"specificValue": "stretch",
+	"id": "properties.align-content.flex_context.stretch",
+	"flex_context": true
+}

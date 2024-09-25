@@ -1,0 +1,14 @@
+/* AUTO_GENERATED: true */
+
+/* 
+feature: properties.anchor-name.none
+No description provided
+
+see: https://developer.mozilla.org/docs/Web/CSS/anchor-name
+*/
+
+/* sample that triggers the feature */
+div { anchor-name: none; }
+
+/* sample that does not trigger the feature */
+div { anchor-name: --myAnchor; }

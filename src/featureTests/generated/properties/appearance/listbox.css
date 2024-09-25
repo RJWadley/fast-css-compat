@@ -1,0 +1,14 @@
+/* AUTO_GENERATED: true */
+
+/* 
+feature: properties.appearance.listbox
+No description provided
+
+see: https://developer.mozilla.org/docs/Web/CSS/appearance
+*/
+
+/* sample that triggers the feature */
+input[type=listbox] { -webkit-appearance: listbox; }
+
+/* sample that does not trigger the feature */
+input[type=range] { -webkit-appearance: none; }

@@ -1,0 +1,14 @@
+/* AUTO_GENERATED: true */
+
+/* 
+feature: properties.animation-timeline
+No description provided
+
+see: https://developer.mozilla.org/docs/Web/CSS/animation-timeline
+*/
+
+/* sample that triggers the feature */
+div { animation: 1s linear 0s 1 normal none running rotateAnimation; animation-timeline: scroll(); } @keyframes rotateAnimation { from { transform: rotate(0deg); } to { transform: rotate(360deg); } }
+
+/* sample that does not trigger the feature */
+div { animation: 1s linear 0s 1 normal none running rotateAnimation; } @keyframes rotateAnimation { from { transform: rotate(0deg); } to { transform: rotate(360deg); } }

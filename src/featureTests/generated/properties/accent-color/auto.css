@@ -1,0 +1,14 @@
+/* AUTO_GENERATED: true */
+
+/* 
+feature: properties.accent-color.auto
+No description provided
+
+see: https://developer.mozilla.org/docs/Web/CSS/accent-color
+*/
+
+/* sample that triggers the feature */
+input[type=checkbox] { accent-color: auto; }
+
+/* sample that does not trigger the feature */
+input[type=checkbox] { accent-color: blue; }

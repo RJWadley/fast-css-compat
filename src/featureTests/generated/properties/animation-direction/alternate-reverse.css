@@ -1,0 +1,14 @@
+/* AUTO_GENERATED: true */
+
+/* 
+feature: properties.animation-direction.alternate-reverse
+No description provided
+
+see: https://developer.mozilla.org/docs/Web/CSS/animation-direction
+*/
+
+/* sample that triggers the feature */
+animation-direction: alternate-reverse;
+
+/* sample that does not trigger the feature */
+animation-direction: alternate;

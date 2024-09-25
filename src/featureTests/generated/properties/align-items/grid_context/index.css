@@ -1,0 +1,14 @@
+/* AUTO_GENERATED: true */
+
+/* 
+feature: properties.align-items.grid_context
+Supported in Grid Layout
+
+see: https://developer.mozilla.org/docs/Web/CSS/align-items
+*/
+
+/* sample that triggers the feature */
+align-items: center; display: grid;
+
+/* sample that does not trigger the feature */
+align-items: center;

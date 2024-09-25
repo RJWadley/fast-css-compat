@@ -1,0 +1,14 @@
+/* AUTO_GENERATED: true */
+
+/* 
+feature: properties.animation-direction.normal
+No description provided
+
+see: https://developer.mozilla.org/docs/Web/CSS/animation-direction
+*/
+
+/* sample that triggers the feature */
+div { animation-direction: normal; }
+
+/* sample that does not trigger the feature */
+div { animation-direction: alternate; }

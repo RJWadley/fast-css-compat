@@ -1,0 +1,7 @@
+{
+	"type": "feature-value",
+	"specificProperty": "align-content",
+	"specificValue": "flex-start",
+	"id": "properties.align-content.flex_context",
+	"flex_context": true
+}

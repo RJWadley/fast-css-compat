@@ -1,0 +1,14 @@
+/* AUTO_GENERATED: true */
+
+/* 
+feature: properties.animation-direction.alternate
+No description provided
+
+see: https://developer.mozilla.org/docs/Web/CSS/animation-direction
+*/
+
+/* sample that triggers the feature */
+animation-direction: alternate; animation-duration: 1s; animation-iteration-count: 1; animation-name: myAnimation; @keyframes myAnimation { from { transform: translateX(0); } to { transform: translateX(100px); } }
+
+/* sample that does not trigger the feature */
+animation-direction: normal; animation-duration: 1s; animation-iteration-count: 1; animation-name: myAnimation; @keyframes myAnimation { from { transform: translateX(0); } to { transform: translateX(100px); } }

@@ -1,0 +1,14 @@
+/* AUTO_GENERATED: true */
+
+/* 
+feature: properties.anchor-name
+No description provided
+
+see: https://developer.mozilla.org/docs/Web/CSS/anchor-name
+*/
+
+/* sample that triggers the feature */
+anchor-name: --myAnchor; position-anchor: --myAnchor; position: fixed; top: anchor(top); left: anchor(left);
+
+/* sample that does not trigger the feature */
+position: fixed; top: 10px; left: 10px;

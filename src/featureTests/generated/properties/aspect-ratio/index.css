@@ -1,0 +1,14 @@
+/* AUTO_GENERATED: true */
+
+/* 
+feature: properties.aspect-ratio
+No description provided
+
+see: https://developer.mozilla.org/docs/Web/CSS/aspect-ratio
+*/
+
+/* sample that triggers the feature */
+div { width: 100px; height: auto; aspect-ratio: 16/9; }
+
+/* sample that does not trigger the feature */
+div { width: 100px; height: 100px; }

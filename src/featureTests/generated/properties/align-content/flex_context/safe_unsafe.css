@@ -1,0 +1,14 @@
+/* AUTO_GENERATED: true */
+
+/* 
+feature: properties.align-content.flex_context.safe_unsafe
+<code>safe</code> and <code>unsafe</code>
+
+see: https://developer.mozilla.org/docs/Web/CSS/align-content
+*/
+
+/* sample that triggers the feature */
+align-content: unsafe center;
+
+/* sample that does not trigger the feature */
+align-content: space-between;

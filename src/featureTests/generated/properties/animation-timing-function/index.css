@@ -1,0 +1,14 @@
+/* AUTO_GENERATED: true */
+
+/* 
+feature: properties.animation-timing-function
+No description provided
+
+see: https://developer.mozilla.org/docs/Web/CSS/animation-timing-function
+*/
+
+/* sample that triggers the feature */
+div { animation-name: myAnimation; animation-duration: 2s; animation-iteration-count: infinite; animation-timing-function: ease-in-out; } @keyframes myAnimation { 0% { transform: translateX(0); } 100% { transform: translateX(100px); } }
+
+/* sample that does not trigger the feature */
+div { animation-name: myAnimation; animation-duration: 2s; animation-iteration-count: infinite; } @keyframes myAnimation { 0% { transform: translateX(0); } 100% { transform: translateX(100px); } }

@@ -1,0 +1,7 @@
+{
+	"type": "feature-value",
+	"specificProperty": "align-items",
+	"specificValue": "stretch",
+	"id": "properties.align-items.grid_context",
+	"grid_context": true
+}

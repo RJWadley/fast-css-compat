@@ -1,0 +1,14 @@
+/* AUTO_GENERATED: true */
+
+/* 
+feature: properties.animation-duration
+No description provided
+
+see: https://developer.mozilla.org/docs/Web/CSS/animation-duration
+*/
+
+/* sample that triggers the feature */
+div { animation-name: myAnimation; animation-duration: 2s; animation-iteration-count: 3; animation-timing-function: ease-in-out; }
+
+/* sample that does not trigger the feature */
+div { animation-name: myAnimation; animation-iteration-count: 3; animation-timing-function: ease-in-out; }

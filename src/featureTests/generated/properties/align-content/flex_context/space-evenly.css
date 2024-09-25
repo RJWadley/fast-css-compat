@@ -1,0 +1,14 @@
+/* AUTO_GENERATED: true */
+
+/* 
+feature: properties.align-content.flex_context.space-evenly
+No description provided
+
+see: https://developer.mozilla.org/docs/Web/CSS/align-content
+*/
+
+/* sample that triggers the feature */
+align-content: space-evenly; display: flex; flex-wrap: wrap;
+
+/* sample that does not trigger the feature */
+align-content: space-between; display: flex; flex-wrap: wrap;

@@ -1,0 +1,14 @@
+/* AUTO_GENERATED: true */
+
+/* 
+feature: properties.align-items.flex_context.baseline
+No description provided
+
+see: https://developer.mozilla.org/docs/Web/CSS/align-items
+*/
+
+/* sample that triggers the feature */
+display: flex; align-items: baseline;
+
+/* sample that does not trigger the feature */
+align-items: center;

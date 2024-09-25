@@ -1,0 +1,6 @@
+{
+	"type": "feature-value",
+	"specificProperty": "animation-iteration-count",
+	"specificValue": "infinite",
+	"id": "properties.animation-iteration-count.infinite"
+}

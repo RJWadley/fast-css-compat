@@ -1,0 +1,7 @@
+{
+	"type": "feature-value",
+	"specificProperty": "align-items",
+	"specificValue": "start",
+	"id": "properties.align-items.grid_context.start_end",
+	"grid_context": true
+}

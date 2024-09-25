@@ -1,0 +1,6 @@
+{
+	"type": "feature-value",
+	"specificProperty": "animation-play-state",
+	"specificValue": "paused",
+	"id": "properties.animation-play-state.paused"
+}

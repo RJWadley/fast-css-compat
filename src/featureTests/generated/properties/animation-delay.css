@@ -1,0 +1,14 @@
+/* AUTO_GENERATED: true */
+
+/* 
+feature: properties.animation-delay
+No description provided
+
+see: https://developer.mozilla.org/docs/Web/CSS/animation-delay
+*/
+
+/* sample that triggers the feature */
+div { animation-name: myAnimation; animation-duration: 1s; animation-iteration-count: infinite; animation-delay: 2s; } @keyframes myAnimation { from { transform: translateX(0); } to { transform: translateX(100px); } }
+
+/* sample that does not trigger the feature */
+div { animation-name: myAnimation; animation-duration: 1s; animation-iteration-count: infinite; } @keyframes myAnimation { from { transform: translateX(0); } to { transform: translateX(100px); } }

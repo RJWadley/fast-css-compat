@@ -1,0 +1,14 @@
+/* AUTO_GENERATED: true */
+
+/* 
+feature: properties.animation-iteration-count
+No description provided
+
+see: https://developer.mozilla.org/docs/Web/CSS/animation-iteration-count
+*/
+
+/* sample that triggers the feature */
+div { animation-name: myAnimation; animation-duration: 1s; animation-timing-function: ease-in-out; animation-iteration-count: 3; } @keyframes myAnimation { from { transform: translateX(0); } to { transform: translateX(100px); } }
+
+/* sample that does not trigger the feature */
+div { animation-name: myAnimation; animation-duration: 1s; animation-timing-function: ease-in-out; } @keyframes myAnimation { from { transform: translateX(0); } to { transform: translateX(100px); } }

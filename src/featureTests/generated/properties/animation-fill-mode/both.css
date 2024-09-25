@@ -1,0 +1,22 @@
+/* AUTO_GENERATED: true */
+
+/* 
+feature: properties.animation-fill-mode.both
+No description provided
+
+see: https://developer.mozilla.org/docs/Web/CSS/animation-fill-mode
+*/
+
+/* sample that triggers the feature */
+div {
+animation-fill-mode: both;
+animation-name: example;
+animation-duration: 1s;
+}
+
+/* sample that does not trigger the feature */
+div {
+animation-fill-mode: forwards;
+animation-name: example;
+animation-duration: 1s;
+}

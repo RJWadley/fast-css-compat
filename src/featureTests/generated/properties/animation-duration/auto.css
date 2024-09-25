@@ -1,0 +1,14 @@
+/* AUTO_GENERATED: true */
+
+/* 
+feature: properties.animation-duration.auto
+<code>auto</code> value
+
+see: https://developer.mozilla.org/docs/Web/CSS/animation-duration#Values
+*/
+
+/* sample that triggers the feature */
+animation-duration: auto; animation-name: example; @keyframes example { from { transform: translateX(0); } to { transform: translateX(100px); } }
+
+/* sample that does not trigger the feature */
+animation-duration: 1s; animation-name: example; @keyframes example { from { transform: translateX(0); } to { transform: translateX(100px); } }

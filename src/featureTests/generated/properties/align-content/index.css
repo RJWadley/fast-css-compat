@@ -1,0 +1,22 @@
+/* AUTO_GENERATED: true */
+
+/* 
+feature: properties.align-content
+No description provided
+
+see: https://developer.mozilla.org/docs/Web/CSS/align-content
+*/
+
+/* sample that triggers the feature */
+div {
+display: flex;
+flex-direction: column;
+align-content: space-between;
+}
+
+/* sample that does not trigger the feature */
+div {
+display: flex;
+flex-direction: column;
+align-items: center;
+}

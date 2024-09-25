@@ -1,0 +1,20 @@
+/* AUTO_GENERATED: true */
+
+/* 
+feature: properties.align-content.grid_context
+Supported in Grid Layout
+
+see: https://developer.mozilla.org/docs/Web/CSS/align-content
+*/
+
+/* sample that triggers the feature */
+div {
+align-content: center;
+grid-template-columns: 1fr 1fr;
+grid-template-rows: 1fr 1fr;
+}
+
+/* sample that does not trigger the feature */
+div {
+align-content: center;
+}

@@ -1,0 +1,19 @@
+/* AUTO_GENERATED: true */
+
+/* 
+feature: properties.align-self.flex_context
+Supported in Flex Layout
+
+see: https://developer.mozilla.org/docs/Web/CSS/align-self
+*/
+
+/* sample that triggers the feature */
+div {
+align-self: flex-start;
+align-self: flex_context;
+}
+
+/* sample that does not trigger the feature */
+div {
+align-self: flex-start;
+}

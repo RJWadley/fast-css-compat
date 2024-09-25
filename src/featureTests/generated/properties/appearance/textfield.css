@@ -1,0 +1,14 @@
+/* AUTO_GENERATED: true */
+
+/* 
+feature: properties.appearance.textfield
+No description provided
+
+see: https://developer.mozilla.org/docs/Web/CSS/appearance
+*/
+
+/* sample that triggers the feature */
+input[type=text] { appearance: textfield; }
+
+/* sample that does not trigger the feature */
+input[type=text] { appearance: none; }

@@ -1,0 +1,39 @@
+/* AUTO_GENERATED: true */
+
+/* 
+feature: properties.animation-composition
+No description provided
+
+see: https://developer.mozilla.org/docs/Web/CSS/animation-composition
+*/
+
+/* sample that triggers the feature */
+div {
+animation: 1s linear 0s 1 normal none running slide;
+animation-name: slide;
+animation-composition: add;
+}
+
+@keyframes slide {
+from {
+  transform: translateX(0px);
+}
+to {
+  transform: translateX(100px);
+}
+}
+
+/* sample that does not trigger the feature */
+div {
+animation: 1s linear 0s 1 normal none running slide;
+animation-name: slide;
+}
+
+@keyframes slide {
+from {
+  transform: translateX(0px);
+}
+to {
+  transform: translateX(100px);
+}
+}

@@ -1,0 +1,6 @@
+{
+	"type": "feature",
+	"specificProperty": "animation-timeline",
+	"specificValue": "scroll()",
+	"id": "properties.animation-timeline.scroll"
+}

@@ -1,0 +1,14 @@
+/* AUTO_GENERATED: true */
+
+/* 
+feature: properties.appearance.checkbox
+No description provided
+
+see: https://developer.mozilla.org/docs/Web/CSS/appearance
+*/
+
+/* sample that triggers the feature */
+input[type=checkbox] { -webkit-appearance: checkbox; background-color: red; }
+
+/* sample that does not trigger the feature */
+input[type=checkbox] { background-color: red; }

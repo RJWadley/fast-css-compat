@@ -1,0 +1,7 @@
+{
+	"type": "feature-value",
+	"specificProperty": "align-content",
+	"specificValue": "last baseline",
+	"id": "properties.align-content.flex_context.last_baseline",
+	"flex_context": true
+}

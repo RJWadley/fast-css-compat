@@ -1,0 +1,14 @@
+/* AUTO_GENERATED: true */
+
+/* 
+feature: properties.animation-timeline.scroll
+<code>scroll()</code>
+
+see: https://developer.mozilla.org/docs/Web/CSS/animation-timeline/scroll
+*/
+
+/* sample that triggers the feature */
+animation-timeline: scroll(block nearest);
+
+/* sample that does not trigger the feature */
+animation-timeline: linear;

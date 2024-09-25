@@ -1,0 +1,7 @@
+{
+	"type": "feature-value",
+	"specificProperty": "align-self",
+	"specificValue": "safe center",
+	"id": "properties.align-self.flex_context.safe_unsafe",
+	"flex_context": true
+}

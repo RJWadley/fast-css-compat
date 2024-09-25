@@ -1,0 +1,14 @@
+/* AUTO_GENERATED: true */
+
+/* 
+feature: properties.animation-range-end.normal
+No description provided
+
+see: https://developer.mozilla.org/docs/Web/CSS/animation-range-end
+*/
+
+/* sample that triggers the feature */
+animation-range-end: normal;
+
+/* sample that does not trigger the feature */
+animation-range-end: 50%;

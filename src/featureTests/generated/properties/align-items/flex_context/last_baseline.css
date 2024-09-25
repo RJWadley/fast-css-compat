@@ -1,0 +1,14 @@
+/* AUTO_GENERATED: true */
+
+/* 
+feature: properties.align-items.flex_context.last_baseline
+<code>last baseline</code>
+
+see: https://developer.mozilla.org/docs/Web/CSS/align-items
+*/
+
+/* sample that triggers the feature */
+align-items: last baseline;
+
+/* sample that does not trigger the feature */
+align-items: center;

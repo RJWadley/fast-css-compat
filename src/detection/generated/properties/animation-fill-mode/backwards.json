@@ -1,0 +1,6 @@
+{
+	"type": "feature-value",
+	"specificProperty": "animation-fill-mode",
+	"specificValue": "backwards",
+	"id": "properties.animation-fill-mode.backwards"
+}

@@ -1,0 +1,6 @@
+{
+	"type": "feature-value",
+	"specificProperty": "align-content",
+	"specificValue": "space-between",
+	"id": "properties.align-content.block_context"
+}

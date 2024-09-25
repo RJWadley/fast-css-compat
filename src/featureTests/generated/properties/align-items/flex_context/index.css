@@ -1,0 +1,14 @@
+/* AUTO_GENERATED: true */
+
+/* 
+feature: properties.align-items.flex_context
+Supported in Flex Layout
+
+see: https://developer.mozilla.org/docs/Web/CSS/align-items
+*/
+
+/* sample that triggers the feature */
+align-items: flex-start;
+
+/* sample that does not trigger the feature */
+align-items: center;

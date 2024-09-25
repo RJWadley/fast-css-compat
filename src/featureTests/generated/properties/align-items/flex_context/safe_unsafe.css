@@ -1,0 +1,14 @@
+/* AUTO_GENERATED: true */
+
+/* 
+feature: properties.align-items.flex_context.safe_unsafe
+<code>safe</code> and <code>unsafe</code>
+
+see: https://developer.mozilla.org/docs/Web/CSS/align-items
+*/
+
+/* sample that triggers the feature */
+align-items: safe center;
+
+/* sample that does not trigger the feature */
+align-items: center;

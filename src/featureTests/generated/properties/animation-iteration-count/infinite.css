@@ -1,0 +1,14 @@
+/* AUTO_GENERATED: true */
+
+/* 
+feature: properties.animation-iteration-count.infinite
+No description provided
+
+see: https://developer.mozilla.org/docs/Web/CSS/animation-iteration-count
+*/
+
+/* sample that triggers the feature */
+animation-iteration-count: infinite;
+
+/* sample that does not trigger the feature */
+animation-iteration-count: 3;

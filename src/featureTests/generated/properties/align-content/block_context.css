@@ -1,0 +1,19 @@
+/* AUTO_GENERATED: true */
+
+/* 
+feature: properties.align-content.block_context
+Supported in Block Layout
+
+see: https://developer.mozilla.org/docs/Web/CSS/align-content
+*/
+
+/* sample that triggers the feature */
+div {
+align-content: space-between;
+display: block;
+}
+
+/* sample that does not trigger the feature */
+div {
+align-content: space-between;
+}

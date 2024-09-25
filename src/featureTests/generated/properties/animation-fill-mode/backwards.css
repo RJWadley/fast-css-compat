@@ -1,0 +1,22 @@
+/* AUTO_GENERATED: true */
+
+/* 
+feature: properties.animation-fill-mode.backwards
+No description provided
+
+see: https://developer.mozilla.org/docs/Web/CSS/animation-fill-mode
+*/
+
+/* sample that triggers the feature */
+div {
+animation-name: myAnimation;
+animation-duration: 2s;
+animation-fill-mode: backwards;
+}
+
+/* sample that does not trigger the feature */
+div {
+animation-name: myAnimation;
+animation-duration: 2s;
+animation-fill-mode: forwards;
+}

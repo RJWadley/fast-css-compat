@@ -1,0 +1,7 @@
+{
+	"type": "feature-value",
+	"specificProperty": "align-self",
+	"specificValue": "grid_context",
+	"id": "properties.align-self.grid_context",
+	"grid_context": true
+}

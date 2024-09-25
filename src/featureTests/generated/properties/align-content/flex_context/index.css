@@ -1,0 +1,14 @@
+/* AUTO_GENERATED: true */
+
+/* 
+feature: properties.align-content.flex_context
+Supported in Flex Layout
+
+see: https://developer.mozilla.org/docs/Web/CSS/align-content
+*/
+
+/* sample that triggers the feature */
+align-content: flex-start; /* This is a valid CSS property, and it uses the flex_context property */
+
+/* sample that does not trigger the feature */
+align-content: center; /* This is a valid CSS property, but it does not use the flex_context property */

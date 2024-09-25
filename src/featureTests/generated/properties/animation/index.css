@@ -1,0 +1,14 @@
+/* AUTO_GENERATED: true */
+
+/* 
+feature: properties.animation
+No description provided
+
+see: https://developer.mozilla.org/docs/Web/CSS/animation
+*/
+
+/* sample that triggers the feature */
+div { animation: 1s linear 0s 1 normal none running slidein; }
+
+/* sample that does not trigger the feature */
+div { color: red; }

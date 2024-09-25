@@ -1,0 +1,7 @@
+{
+	"type": "feature-value",
+	"specificProperty": "align-content",
+	"specificValue": "space-evenly",
+	"id": "properties.align-content.flex_context.space-evenly",
+	"flex_context": true
+}

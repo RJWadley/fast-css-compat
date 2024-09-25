@@ -1,0 +1,14 @@
+/* AUTO_GENERATED: true */
+
+/* 
+feature: properties.appearance.textarea
+No description provided
+
+see: https://developer.mozilla.org/docs/Web/CSS/appearance
+*/
+
+/* sample that triggers the feature */
+textarea { appearance: textarea; }
+
+/* sample that does not trigger the feature */
+textarea { appearance: none; }
